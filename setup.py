@@ -8,14 +8,14 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='Twitter Sentiment Analysis',
+    name='twitter_sentiment_analysis',
     version='1.3.0',
 
     description='This script can tell you the sentiments of people regarding to any events happening in the world by analyzing tweets related to that event. It will search for tweets about any topic and analyze each tweet to see how positive or negative it's emotion is.',
     long_description=long_description,
 
 
-    url='https://github.com/the-javapocalypse/Twitter-Sentiment-Analysis',
+    url='https://github.com/r-gr/Twitter-Sentiment-Analysis',
 
 
     author='Muhammad Ali Zia',
